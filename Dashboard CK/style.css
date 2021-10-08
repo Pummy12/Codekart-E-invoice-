@@ -1,7 +1,7 @@
 body{
 	margin:0px;
 	padding: 0px;
-	background: linear-gradient(to left, #dd5e89 0%, #f7bb97 100%);
+	background: white;
 	overflow: hidden;
 	font-family: system-ui;
 }
@@ -60,29 +60,7 @@ body{
 	width: 50%;
 	float: left;
 }
-.profile{
-	display: inline-block;
-	float: right;
-	width: 160px;
-}
-.pro-img{
-	float: left;
-	width: 40px;
-	margin-top: 5px;
-}
-.profile p{
-	color: white;
-	font-weight: 500;
-	margin-left: 55px;
-	margin-top: 10px;
-	font-size: 13.5px;
-}
-.profile p span{
-	font-weight: 400;
-    font-size: 12px;
-    display: block;
-    color: #8e8b8b;
-}
+
 .col-div-3{
 	width: 25%;
 	float: left;
@@ -129,11 +107,11 @@ body{
 .content-box p{
 	margin: 0px;
     font-size: 20px;
-    color: whitesmoke;
+    color: black;
 }
 .content-box p span{
 	float: right;
-    background-color: #ddd;
+    background-color: black;
     padding: 3px 10px;
     font-size: 15px;
 }
@@ -153,15 +131,43 @@ body{
 table {
   font-family: arial, sans-serif;
   border-collapse: collapse;
-  width: 100%;
+  width: 50%;
   
 }
 td, th {
   text-align: left;
   padding:15px;
-  color: #ddd;
+  color: black;
   border-bottom: 1px solid #81818140;
 }
+.Right {
+    width: -1%;
+    float: right;
+    display: inline-block;
+    padding: 22px;
+    margin-top: -360px;
+}
+input[type="text"] {
+    padding: 5px;
+    border-radius: 10px;
+    margin-top: 16px;
+    height: 20px;
+    width: 110%;
+}
+input[type="submit"] {
+    padding: 8px;
+    margin-top: 17px;
+    flex: center;
+    align-items: center;
+    position: relative;
+    border: 3px;
+    justify-content: center;
+    height: -3px;
+    border-radius: 10px;
+    width: 118%;
+}
+
+
 @keyframes fill {
   0% {
     transform: rotate(0deg);
