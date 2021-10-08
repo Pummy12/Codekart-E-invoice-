@@ -1,7 +1,7 @@
 body{
 	margin:0px;
 	padding: 0px;
-	background: linear-gradient(to left, #dd5e89 0%, #f7bb97 100%);
+	background: white;
 	overflow: hidden;
 	font-family: system-ui;
 }
@@ -107,11 +107,11 @@ body{
 .content-box p{
 	margin: 0px;
     font-size: 20px;
-    color: whitesmoke;
+    color: black;
 }
 .content-box p span{
 	float: right;
-    background-color: #ddd;
+    background-color: black;
     padding: 3px 10px;
     font-size: 15px;
 }
@@ -137,7 +137,7 @@ table {
 td, th {
   text-align: left;
   padding:15px;
-  color: #ddd;
+  color: black;
   border-bottom: 1px solid #81818140;
 }
 .Right {
