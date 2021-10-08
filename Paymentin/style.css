@@ -1,7 +1,7 @@
 body{
 	margin:0px;
 	padding: 0px;
-	background: linear-gradient(to left, #dd5e89 0%, #f7bb97 100%);
+	background: white;
 	overflow: hidden;
 	font-family: system-ui;
 }
@@ -62,7 +62,8 @@ body{
 }
 .button {
     color: whitesmoke;
-    padding: 35px 55px 75px 100px;
+    /* padding: 35px 55px 75px 100px; */
+    padding: 46px 64px 80px 113px;
     text-align: center;
     text-decoration: none;
     display: inline-block;
